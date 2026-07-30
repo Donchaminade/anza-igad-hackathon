@@ -8,8 +8,8 @@ export default function manifest(): MetadataRoute.Manifest {
       "Drought trigger-to-action briefs for Turkana field actors. Grounded explain + SMS.",
     start_url: "/",
     display: "standalone",
-    background_color: "#f3ebdd",
-    theme_color: "#9a4e1a",
+    background_color: "#e4ebe3",
+    theme_color: "#b86b2e",
     orientation: "portrait-primary",
     icons: [
       {

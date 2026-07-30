@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c1f28"/>
+      <stop offset="42%" stop-color="#1a3d42"/>
+      <stop offset="72%" stop-color="#5a6e4e"/>
+      <stop offset="100%" stop-color="#c4a06a"/>
+    </linearGradient>
+    <linearGradient id="heat" x1="0" y1="0.3" x2="1" y2="0.7">
+      <stop offset="0%" stop-color="#e8b85c" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#e0a040" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#8b4510" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a6a3e"/>
+      <stop offset="55%" stop-color="#5c4630"/>
+      <stop offset="100%" stop-color="#2a2118"/>
+    </linearGradient>
+    <pattern id="cracks" width="120" height="80" patternUnits="userSpaceOnUse">
+      <path d="M10 40 Q40 20 70 45 T120 40" fill="none" stroke="#3a2e22" stroke-width="1.2" stroke-opacity="0.35"/>
+      <path d="M0 60 Q35 50 55 70 T110 65" fill="none" stroke="#2a2118" stroke-width="0.9" stroke-opacity="0.28"/>
+      <path d="M20 10 L28 35 L18 55" fill="none" stroke="#3a2e22" stroke-width="0.8" stroke-opacity="0.22"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <ellipse cx="1180" cy="280" rx="220" ry="90" fill="url(#heat)"/>
+  <circle cx="1220" cy="210" r="54" fill="#f0c56a" opacity="0.92"/>
+  <circle cx="1220" cy="210" r="78" fill="#f0c56a" opacity="0.12"/>
+  <!-- distant ridges -->
+  <path d="M0 520 L180 460 L340 500 L520 430 L700 490 L900 420 L1100 470 L1300 400 L1600 460 L1600 900 L0 900 Z" fill="#4a5c48" opacity="0.55"/>
+  <path d="M0 560 L220 500 L400 545 L610 475 L820 540 L1050 470 L1280 520 L1600 490 L1600 900 L0 900 Z" fill="#3d4f3f"/>
+  <!-- mid scrub hills -->
+  <path d="M0 620 L160 580 L300 610 L480 555 L660 600 L880 540 L1120 590 L1360 550 L1600 580 L1600 900 L0 900 Z" fill="#6a5538"/>
+  <path d="M0 680 L200 640 L380 675 L560 620 L780 670 L1020 615 L1260 660 L1600 630 L1600 900 L0 900 Z" fill="url(#ground)"/>
+  <rect x="0" y="640" width="1600" height="260" fill="url(#cracks)" opacity="0.7"/>
+  <!-- sparse acacia silhouettes -->
+  <g fill="#1a2218" opacity="0.75">
+    <ellipse cx="260" cy="600" rx="48" ry="14"/>
+    <rect x="254" y="600" width="10" height="55" rx="2"/>
+    <ellipse cx="920" cy="575" rx="36" ry="11"/>
+    <rect x="915" y="575" width="8" height="48" rx="2"/>
+    <ellipse cx="1410" cy="595" rx="42" ry="12"/>
+    <rect x="1405" y="595" width="9" height="52" rx="2"/>
+  </g>
+  <!-- herd dots -->
+  <g fill="#2a2218" opacity="0.55">
+    <ellipse cx="640" cy="710" rx="7" ry="4"/>
+    <ellipse cx="660" cy="714" rx="6" ry="3.5"/>
+    <ellipse cx="678" cy="708" rx="7" ry="4"/>
+    <ellipse cx="698" cy="716" rx="5.5" ry="3"/>
+  </g>
+  <!-- dust haze near horizon -->
+  <rect x="0" y="480" width="1600" height="120" fill="#c4a06a" opacity="0.12"/>
+</svg>
