@@ -1,0 +1,47 @@
+The world is facing increasingly complex challenges, from climate extremes and disasters to food insecurity, health emergencies, and humanitarian crises. As risks become more interconnected, the ability to anticipate, prepare for, and respond effectively has never been more important. The IGAD Hackathon 2026 brings together developers and innovators to reimagine the future of early warning and early action. Participants are invited to develop innovative solutions that improve how information is generated, communicated, understood, and transformed into timely action.
+
+Whether through mobile applications, geospatial technologies, data analytics, communication platforms, artificial intelligence, community engagement tools, or entirely new approaches, participants are encouraged to think boldly and create solutions with real-world impact.
+
+This is more than a competition, it is an opportunity to contribute ideas that can help strengthen resilience, support decision-making, and improve outcomes for communities across the region.
+
+Requirements
+Participants are required to submit an innovative solution that strengthens early warning, preparedness, resilience, or decision-making.
+
+Each submission should include:
+
+Project Overview (Max 250 words): A brief description of the solution, the problem being addressed, and intended users or beneficiaries.
+Solution Details (Max 250 words): An explanation of how the solution works, key innovations, and technologies used.
+Prototype: A working application (web link or APK) and demo video (maximum 5 minutes).
+Technical Information: Technology stack used and link to a public GitHub repository (where applicable).
+The top 10 solutions will be selected to present during a physical evaluation workshop.
+
+Prizes
+$10,000+ in prizes+ other prizes
+Position 1
+$4,000 in cash
+1 winner
+Fully sponsored participation in GHACOF74 at event + physical evaluation workshop
+
+Position 2
+$2,500 in cash
+1 winner
+Fully sponsored participation in GHACOF74 at event + physical evaluation workshop
+
+Position 3
+$1,500 in cash
+1 winner
+Fully sponsored participation in GHACOF74 at event + physical evaluation workshop
+
+Position 4
+$1,000 in cash
+1 winner
+Fully sponsored participation in GHACOF74 at event + physical evaluation workshop
+
+Position 5
+$1,000 in cash
+1 winner
+Fully sponsored participation in GHACOF74 at event + physical evaluation workshop
+
+Position 6 - 10
+5 winners
+Sponsored physical evaluation workshop

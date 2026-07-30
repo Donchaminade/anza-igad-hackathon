@@ -1,0 +1,39 @@
+Eligibility
+
+The hackathon is open to individuals and teams.
+Teams may have a maximum of five (5) members.
+Participants must provide accurate information during registration.
+Original Work
+
+All submissions must be original work created by the participants.
+Participants shall use open-source tools, APIs, datasets, and libraries, but must properly acknowledge them.
+Submissions must not infringe on intellectual property rights.
+Submission Requirements
+
+All projects must be submitted through Devpost before the deadline.
+Submissions must include the required project description, demonstration, and supporting materials.
+Late submissions may not be considered.
+Technology Use
+
+Participants are encouraged to use innovative approaches, including data science, geospatial technologies, artificial intelligence, digital platforms, and other emerging technologies.
+Any external tools, datasets, APIs, or resources used must be disclosed.
+Code of Conduct
+
+Participants are expected to collaborate respectfully and professionally.
+Harassment, discrimination, or inappropriate behavior will not be tolerated.
+Participants should contribute to a positive and inclusive innovation environment.
+Judging
+
+Projects will be evaluated based on innovation, impact, technical quality, user experience, and scalability.
+Judges' decisions are final.
+Intellectual Property & Innovation Rights
+
+Participants retain ownership of the solutions, ideas, code, and materials they develop and submit as part of the hackathon.
+Participants acknowledge that organizers, sponsors, and partners may already be working on, or may independently develop products, technologies, research, or initiatives that are similar to concepts presented during the hackathon.
+Participation in the hackathon does not restrict organizers, sponsors, or partners from continuing research, development, deployment, or commercialization of solutions that may overlap with hackathon submissions.
+Organizers and sponsors are not obligated to provide compensation, licensing, or ownership rights for independently developed projects that are similar to submitted ideas.
+Participants grant organizers permission to showcase submitted projects for evaluation, learning, reporting, and hackathon promotion purposes.
+Participants are responsible for ensuring that their submissions do not violate third-party intellectual property rights.
+Integrity
+
+Any submission containing copied work, misleading information, or violating hackathon rules may be disqualified.

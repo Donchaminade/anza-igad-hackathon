@@ -1,0 +1,55 @@
+Participants can use the following resources to support their solutions:
+
+Technology & Development
+
+Open-source libraries, frameworks, APIs, and development tools
+Cloud platforms and AI/ML tools
+Data science and analytics frameworks
+Mobile and web development tools
+Data & Information Sources
+
+Open datasets
+Climate, environmental, social, and humanitarian datasets
+Public APIs and geospatial data sources
+Remote sensing and earth observation datasets
+ICPAC Platforms & Reference Systems
+
+Participants are encouraged to explore existing systems and information services for inspiration:
+
+ICPAC Website
+Regional climate information, products, updates, and resources: https://www.icpac.net/
+ICPAC Hazard Watch
+Explore hazard monitoring, risk information, and early warning products: https://hazardwatch.icpac.net/
+ICPAC Drought Watch
+Access drought monitoring information, indicators, and analysis: https://droughtwatch.icpac.net/
+HUSIKA Platform
+Explore digital early warning communication and information services: https://husika.icpac.net/
+ICPAC Thresholds and Triggers System
+Explore how hazard information, thresholds, and triggers can support anticipatory action and early decision-making:https://eatriggersthresholds.icpac.net/
+ 
+
+Recommended Areas to Explore
+
+Participants may explore solutions involving:
+
+Artificial Intelligence and Machine Learning
+Generative AI applications
+Data Analytics and Predictive Modelling
+Geospatial Technologies (GIS)
+Remote Sensing
+Mobile and Web Applications
+Digital Communication Platforms
+Community Engagement and Crowdsourcing
+Helpful References
+
+Participants are encouraged to explore concepts related to:
+
+Early warning systems
+Risk assessment and forecasting
+Anticipatory action
+Climate services
+Disaster risk reduction
+Community resilience and digital inclusion
+Additional technical resources, datasets, and challenge-related materials will be shared with registered participants.
+
+Build responsibly. Innovate boldly. Create solutions that make a difference.

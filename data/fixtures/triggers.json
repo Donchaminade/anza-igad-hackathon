@@ -1,0 +1,267 @@
+{
+  "meta": {
+    "hazard": "drought",
+    "zone": {
+      "id": "turkana-ke",
+      "name": "Turkana County",
+      "country": "Kenya",
+      "adminLevel": "county",
+      "igadMember": true,
+      "centroid": { "lat": 3.3122, "lng": 35.5658 },
+      "bbox": [34.8, 1.9, 36.7, 5.0]
+    },
+    "sources": [
+      {
+        "id": "icpac-thresholds",
+        "label": "ICPAC Thresholds & Triggers",
+        "url": "https://eatriggersthresholds.icpac.net/"
+      },
+      {
+        "id": "icpac-drought-watch",
+        "label": "ICPAC Drought Watch",
+        "url": "https://droughtwatch.icpac.net/"
+      },
+      {
+        "id": "icpac-hazard-watch",
+        "label": "ICPAC Hazard Watch",
+        "url": "https://hazardwatch.icpac.net/"
+      },
+      {
+        "id": "husika",
+        "label": "HUSIKA Early Warning Communication",
+        "url": "https://husika.icpac.net/"
+      }
+    ],
+    "disclaimer": "Demo fixtures inspired by ICPAC Thresholds & Triggers / Drought Watch indicator logic. Values are illustrative for hackathon demo — not operational forecasts."
+  },
+  "thresholds": [
+    {
+      "id": "spi3-alert",
+      "indicator": "SPI-3",
+      "fullName": "Standardized Precipitation Index (3-month)",
+      "unit": "index",
+      "alert": -1.0,
+      "alarm": -1.5,
+      "emergency": -2.0,
+      "direction": "below",
+      "sourceId": "icpac-thresholds"
+    },
+    {
+      "id": "vci-alert",
+      "indicator": "VCI",
+      "fullName": "Vegetation Condition Index",
+      "unit": "%",
+      "alert": 35,
+      "alarm": 25,
+      "emergency": 15,
+      "direction": "below",
+      "sourceId": "icpac-drought-watch"
+    },
+    {
+      "id": "soil-moisture-alert",
+      "indicator": "Soil Moisture Anomaly",
+      "fullName": "Root-zone soil moisture anomaly",
+      "unit": "%",
+      "alert": -20,
+      "alarm": -35,
+      "emergency": -50,
+      "direction": "below",
+      "sourceId": "icpac-drought-watch"
+    },
+    {
+      "id": "rainfall-dekad",
+      "indicator": "Dekadal Rainfall % of Normal",
+      "fullName": "Current dekadal rainfall as percent of long-term normal",
+      "unit": "%",
+      "alert": 60,
+      "alarm": 40,
+      "emergency": 25,
+      "direction": "below",
+      "sourceId": "icpac-hazard-watch"
+    }
+  ],
+  "personas": [
+    {
+      "id": "extension",
+      "name": "Agricultural Extension Officer",
+      "nameSw": "Afisa wa Ugani",
+      "role": "Advises pastoralist and agro-pastoral households on feed, water, and early cropping decisions.",
+      "channel": "SMS + community baraza",
+      "icon": "seedling"
+    },
+    {
+      "id": "drm",
+      "name": "Local Civil Protection Lead",
+      "nameSw": "Afisa wa Ulinzi wa Raia",
+      "role": "Coordinates anticipatory action, water trucking requests, and ward-level preparedness.",
+      "channel": "SMS + county DRM WhatsApp",
+      "icon": "shield"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-turkana-2026-07-alert",
+      "title": "SPI-3 Alert — Turkana Central & Loima",
+      "severity": "drought",
+      "level": "alert",
+      "triggeredAt": "2026-07-22T06:00:00+03:00",
+      "location": {
+        "name": "Turkana Central & Loima wards",
+        "lat": 3.12,
+        "lng": 35.6
+      },
+      "summary": "3-month rainfall deficit crossed the Alert threshold. Vegetation stress beginning in rainfed pockets.",
+      "indicators": [
+        {
+          "thresholdId": "spi3-alert",
+          "indicator": "SPI-3",
+          "value": -1.18,
+          "threshold": -1.0,
+          "level": "alert",
+          "unit": "index"
+        },
+        {
+          "thresholdId": "vci-alert",
+          "indicator": "VCI",
+          "value": 32,
+          "threshold": 35,
+          "level": "alert",
+          "unit": "%"
+        },
+        {
+          "thresholdId": "rainfall-dekad",
+          "indicator": "Dekadal Rainfall % of Normal",
+          "value": 48,
+          "threshold": 60,
+          "level": "alert",
+          "unit": "%"
+        }
+      ],
+      "confidence": 0.78,
+      "validUntil": "2026-08-05T00:00:00+03:00"
+    },
+    {
+      "id": "evt-turkana-2026-07-alarm",
+      "title": "Drought Alarm — Kakuma & Kalobeyei corridor",
+      "hazard": "drought",
+      "level": "alarm",
+      "triggeredAt": "2026-07-26T06:00:00+03:00",
+      "location": {
+        "name": "Kakuma–Kalobeyei corridor",
+        "lat": 3.72,
+        "lng": 34.85
+      },
+      "summary": "Multiple indicators at Alarm. Pasture regeneration unlikely before next rains; livestock stress rising.",
+      "indicators": [
+        {
+          "thresholdId": "spi3-alert",
+          "indicator": "SPI-3",
+          "value": -1.62,
+          "threshold": -1.5,
+          "level": "alarm",
+          "unit": "index"
+        },
+        {
+          "thresholdId": "vci-alert",
+          "indicator": "VCI",
+          "value": 22,
+          "threshold": 25,
+          "level": "alarm",
+          "unit": "%"
+        },
+        {
+          "thresholdId": "soil-moisture-alert",
+          "indicator": "Soil Moisture Anomaly",
+          "value": -38,
+          "threshold": -35,
+          "level": "alarm",
+          "unit": "%"
+        },
+        {
+          "thresholdId": "rainfall-dekad",
+          "indicator": "Dekadal Rainfall % of Normal",
+          "value": 31,
+          "threshold": 40,
+          "level": "alarm",
+          "unit": "%"
+        }
+      ],
+      "confidence": 0.86,
+      "validUntil": "2026-08-12T00:00:00+03:00"
+    },
+    {
+      "id": "evt-turkana-2026-07-watch",
+      "title": "Watch — Turkana South (approaching Alert)",
+      "hazard": "drought",
+      "level": "watch",
+      "triggeredAt": "2026-07-28T06:00:00+03:00",
+      "location": {
+        "name": "Turkana South",
+        "lat": 2.35,
+        "lng": 35.55
+      },
+      "summary": "Indicators approaching Alert. Time window for low-cost preparedness before thresholds trip.",
+      "indicators": [
+        {
+          "thresholdId": "spi3-alert",
+          "indicator": "SPI-3",
+          "value": -0.82,
+          "threshold": -1.0,
+          "level": "watch",
+          "unit": "index"
+        },
+        {
+          "thresholdId": "vci-alert",
+          "indicator": "VCI",
+          "value": 38,
+          "threshold": 35,
+          "level": "watch",
+          "unit": "%"
+        },
+        {
+          "thresholdId": "rainfall-dekad",
+          "indicator": "Dekadal Rainfall % of Normal",
+          "value": 68,
+          "threshold": 60,
+          "level": "watch",
+          "unit": "%"
+        }
+      ],
+      "confidence": 0.71,
+      "validUntil": "2026-08-08T00:00:00+03:00"
+    },
+    {
+      "id": "evt-turkana-2026-06-recovering",
+      "title": "Recovering — Lodwar peri-urban (post-Alert)",
+      "hazard": "drought",
+      "level": "recovering",
+      "triggeredAt": "2026-06-18T06:00:00+03:00",
+      "location": {
+        "name": "Lodwar peri-urban",
+        "lat": 3.12,
+        "lng": 35.6
+      },
+      "summary": "Indicators improving after localized rains. Continue monitoring; do not stand down all AA measures yet.",
+      "indicators": [
+        {
+          "thresholdId": "spi3-alert",
+          "indicator": "SPI-3",
+          "value": -0.55,
+          "threshold": -1.0,
+          "level": "recovering",
+          "unit": "index"
+        },
+        {
+          "thresholdId": "vci-alert",
+          "indicator": "VCI",
+          "value": 42,
+          "threshold": 35,
+          "level": "recovering",
+          "unit": "%"
+        }
+      ],
+      "confidence": 0.69,
+      "validUntil": "2026-07-31T00:00:00+03:00"
+    }
+  ]
+}

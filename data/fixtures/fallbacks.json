@@ -1,0 +1,242 @@
+{
+  "evt-turkana-2026-07-alert": {
+    "extension": {
+      "explanation": "SPI-3 has fallen to -1.18, below the Alert threshold of -1.0. VCI is at 32% (Alert < 35%) and dekadal rainfall is only 48% of normal. This means the last three months were drier than usual and vegetation is already stressed in rainfed pockets of Turkana Central and Loima. Confidence is moderate-high (78%) based on converging rainfall and vegetation signals.",
+      "citations": [
+        { "indicator": "SPI-3", "value": "-1.18", "threshold": "-1.0 (Alert)", "sourceId": "icpac-thresholds" },
+        { "indicator": "VCI", "value": "32%", "threshold": "35% (Alert)", "sourceId": "icpac-drought-watch" },
+        { "indicator": "Dekadal Rainfall % of Normal", "value": "48%", "threshold": "60% (Alert)", "sourceId": "icpac-hazard-watch" }
+      ],
+      "actions": [
+        {
+          "title": "Advise selective destocking of weak stock",
+          "when": "Within 7 days",
+          "why": "SPI-3 Alert and falling VCI signal pasture will not recover soon.",
+          "resources": "County livestock markets; Kenya Meat Commission contacts; community baraza slots"
+        },
+        {
+          "title": "Map household water points still yielding",
+          "when": "This week",
+          "why": "Rainfall at 48% of normal — shallow wells may fail first.",
+          "resources": "Ward water user committees; hand-pump spare parts list"
+        },
+        {
+          "title": "Promote drought-tolerant fodder / crop advice",
+          "when": "Before next planting window",
+          "why": "Soil and vegetation stress already at Alert — reduce high-water crops.",
+          "resources": "KEPHIS seed list; extension demo plots; radio spots (HUSIKA-style)"
+        }
+      ],
+      "sms": "ANZA ALERT Turkana Central/Loima: SPI-3=-1.18 (Alert). Act: 1) selective destock weak animals 2) check yielding water points 3) switch to drought-tolerant fodder. Valid to 5 Aug. Source: ICPAC-style thresholds (demo)."
+    },
+    "drm": {
+      "explanation": "Multiple drought indicators crossed Alert in Turkana Central & Loima. SPI-3 (-1.18), VCI (32%), and dekadal rainfall (48% of normal) jointly justify activating low-cost anticipatory measures now — before Alarm. This is not an emergency declaration; it is a window to reduce response cost.",
+      "citations": [
+        { "indicator": "SPI-3", "value": "-1.18", "threshold": "-1.0 (Alert)", "sourceId": "icpac-thresholds" },
+        { "indicator": "VCI", "value": "32%", "threshold": "35% (Alert)", "sourceId": "icpac-drought-watch" },
+        { "indicator": "Dekadal Rainfall % of Normal", "value": "48%", "threshold": "60% (Alert)", "sourceId": "icpac-hazard-watch" }
+      ],
+      "actions": [
+        {
+          "title": "Activate ward AA checklist (Alert tier)",
+          "when": "Within 48 hours",
+          "why": "Threshold Alert requires pre-agreed actions, not wait-and-see.",
+          "resources": "County Contingency Plan Alert annex; DRM WhatsApp group"
+        },
+        {
+          "title": "Pre-position water trucking request forms",
+          "when": "This week",
+          "why": "Rainfall deficit often precedes borehole congestion in 2–3 weeks.",
+          "resources": "NDMA / county water dept request templates"
+        },
+        {
+          "title": "Brief chiefs on Alert messaging (EN/SW)",
+          "when": "Within 72 hours",
+          "why": "Clear community messaging reduces panic and rumour.",
+          "resources": "HUSIKA-style SMS scripts; chief baraza schedule"
+        }
+      ],
+      "sms": "ANZA DRM ALERT Turkana C/Loima: drought Alert (SPI-3=-1.18, VCI=32%). Do: activate AA checklist, prep water trucking forms, brief chiefs EN/SW. Valid to 5 Aug. Demo fixtures ICPAC-style."
+    }
+  },
+  "evt-turkana-2026-07-alarm": {
+    "extension": {
+      "explanation": "Kakuma–Kalobeyei corridor is at Alarm: SPI-3=-1.62 (Alarm ≤ -1.5), VCI=22% (Alarm ≤ 25%), soil moisture anomaly=-38% (Alarm ≤ -35%), rainfall=31% of normal. Pasture regeneration before the next rains is unlikely. Livestock body condition will deteriorate quickly without feed/water support.",
+      "citations": [
+        { "indicator": "SPI-3", "value": "-1.62", "threshold": "-1.5 (Alarm)", "sourceId": "icpac-thresholds" },
+        { "indicator": "VCI", "value": "22%", "threshold": "25% (Alarm)", "sourceId": "icpac-drought-watch" },
+        { "indicator": "Soil Moisture Anomaly", "value": "-38%", "threshold": "-35% (Alarm)", "sourceId": "icpac-drought-watch" },
+        { "indicator": "Dekadal Rainfall % of Normal", "value": "31%", "threshold": "40% (Alarm)", "sourceId": "icpac-hazard-watch" }
+      ],
+      "actions": [
+        {
+          "title": "Prioritize emergency livestock feed targeting",
+          "when": "Immediate (0–72h)",
+          "why": "VCI and soil moisture at Alarm — natural pasture insufficient.",
+          "resources": "County feed stores; FAO/partner feed pipelines; beneficiary lists"
+        },
+        {
+          "title": "Guide herds to remaining dry-season grazing reserves",
+          "when": "This week",
+          "why": "SPI-3 Alarm indicates multi-month rainfall failure.",
+          "resources": "Traditional grazing agreements; conflict-sensitive corridor maps"
+        },
+        {
+          "title": "Scale animal health outreach (parasites, disease)",
+          "when": "Within 7 days",
+          "why": "Stressed animals are more disease-prone during Alarm.",
+          "resources": "County vet teams; community disease reporters"
+        }
+      ],
+      "sms": "ANZA ALARM Kakuma-Kalobeyei: SPI-3=-1.62 VCI=22% soil=-38%. Act NOW: emergency feed targeting, move herds to dry-season reserves, scale animal health. Valid to 12 Aug."
+    },
+    "drm": {
+      "explanation": "Four indicators converge at Alarm for Kakuma–Kalobeyei. Confidence 86%. This justifies escalating from Alert AA to Alarm-tier anticipatory action: water trucking surge, hotspot monitoring near settlements/refugee-host interface, and coordination with NDMA/partners.",
+      "citations": [
+        { "indicator": "SPI-3", "value": "-1.62", "threshold": "-1.5 (Alarm)", "sourceId": "icpac-thresholds" },
+        { "indicator": "VCI", "value": "22%", "threshold": "25% (Alarm)", "sourceId": "icpac-drought-watch" },
+        { "indicator": "Soil Moisture Anomaly", "value": "-38%", "threshold": "-35% (Alarm)", "sourceId": "icpac-drought-watch" },
+        { "indicator": "Dekadal Rainfall % of Normal", "value": "31%", "threshold": "40% (Alarm)", "sourceId": "icpac-hazard-watch" }
+      ],
+      "actions": [
+        {
+          "title": "Trigger Alarm-tier water trucking surge",
+          "when": "0–48 hours",
+          "why": "Rainfall 31% of normal + soil moisture Alarm → borehole queues likely.",
+          "resources": "County water trucks; partner tanker roster; fuel contingency"
+        },
+        {
+          "title": "Stand up daily drought ops cell",
+          "when": "Immediate",
+          "why": "Multi-indicator Alarm needs daily situation updates.",
+          "resources": "DRM ops room; NDMA liaison; HUSIKA broadcast slots"
+        },
+        {
+          "title": "Map conflict-sensitive water/grazing hotspots",
+          "when": "Within 72 hours",
+          "why": "Alarm drought often increases resource competition.",
+          "resources": "Ward admins; peace committees; police liaison"
+        }
+      ],
+      "sms": "ANZA DRM ALARM Kakuma-Kalobeyei: 4 indicators Alarm. Trigger water trucking surge, daily ops cell, map water/grazing hotspots. Valid to 12 Aug. Demo ICPAC-style."
+    }
+  },
+  "evt-turkana-2026-07-watch": {
+    "extension": {
+      "explanation": "Turkana South is approaching Alert: SPI-3=-0.82 (Alert at -1.0), VCI=38% (still above 35%), rainfall=68% of normal (Alert at 60%). This is a preparedness window — cheap actions now beat costly response later.",
+      "citations": [
+        { "indicator": "SPI-3", "value": "-0.82", "threshold": "-1.0 (Alert)", "sourceId": "icpac-thresholds" },
+        { "indicator": "VCI", "value": "38%", "threshold": "35% (Alert)", "sourceId": "icpac-drought-watch" },
+        { "indicator": "Dekadal Rainfall % of Normal", "value": "68%", "threshold": "60% (Alert)", "sourceId": "icpac-hazard-watch" }
+      ],
+      "actions": [
+        {
+          "title": "Refresh farmer/pastoralist contact trees",
+          "when": "This week",
+          "why": "Watch stage — ensure you can reach households if Alert trips.",
+          "resources": "WhatsApp groups; chief lists; radio call-in"
+        },
+        {
+          "title": "Check seed/fodder stock readiness",
+          "when": "Within 10 days",
+          "why": "If SPI-3 crosses -1.0, distribution must be fast.",
+          "resources": "Extension stores; cooperative inventories"
+        },
+        {
+          "title": "Run one preparedness baraza on water rationing",
+          "when": "Before Alert",
+          "why": "Community habits set early reduce later conflict.",
+          "resources": "Ward offices; water user associations"
+        }
+      ],
+      "sms": "ANZA WATCH Turkana South: SPI-3=-0.82 nearing Alert. Prep: refresh contacts, check fodder/seed stocks, hold water rationing baraza. Monitor to 8 Aug."
+    },
+    "drm": {
+      "explanation": "Watch means indicators are deteriorating toward Alert but have not crossed. Use this window to verify contingency stocks, confirm AA financing triggers, and rehearse SMS trees — low cost, high readiness.",
+      "citations": [
+        { "indicator": "SPI-3", "value": "-0.82", "threshold": "-1.0 (Alert)", "sourceId": "icpac-thresholds" },
+        { "indicator": "VCI", "value": "38%", "threshold": "35% (Alert)", "sourceId": "icpac-drought-watch" },
+        { "indicator": "Dekadal Rainfall % of Normal", "value": "68%", "threshold": "60% (Alert)", "sourceId": "icpac-hazard-watch" }
+      ],
+      "actions": [
+        {
+          "title": "Verify Alert AA financing / authority chain",
+          "when": "Within 5 days",
+          "why": "Avoid delay when SPI-3 crosses -1.0.",
+          "resources": "County contingency fund SOPs; CECM sign-off list"
+        },
+        {
+          "title": "Test SMS tree to ward admins",
+          "when": "This week",
+          "why": "Watch → Alert transition must be communicable in hours.",
+          "resources": "HUSIKA-style channel; DRM WhatsApp"
+        },
+        {
+          "title": "Audit water truck readiness (fuel, drivers)",
+          "when": "Within 7 days",
+          "why": "If Alert hits, trucking request latency dominates impact.",
+          "resources": "County fleet log; partner tanker MoUs"
+        }
+      ],
+      "sms": "ANZA DRM WATCH Turkana South: nearing Alert (SPI-3=-0.82). Verify AA finance chain, test SMS tree, audit water trucks. Monitor to 8 Aug."
+    }
+  },
+  "evt-turkana-2026-06-recovering": {
+    "extension": {
+      "explanation": "Lodwar peri-urban indicators improved: SPI-3=-0.55 and VCI=42%, both better than Alert. Localized rains helped, but do not fully stand down — residual stress and false recovery are common. Continue advisory monitoring.",
+      "citations": [
+        { "indicator": "SPI-3", "value": "-0.55", "threshold": "-1.0 (Alert)", "sourceId": "icpac-thresholds" },
+        { "indicator": "VCI", "value": "42%", "threshold": "35% (Alert)", "sourceId": "icpac-drought-watch" }
+      ],
+      "actions": [
+        {
+          "title": "Shift messaging from crisis to recovery advice",
+          "when": "This week",
+          "why": "Indicators above Alert — avoid alarm fatigue.",
+          "resources": "Radio spots; baraza scripts"
+        },
+        {
+          "title": "Assess which herds still need supplementary feed",
+          "when": "Within 10 days",
+          "why": "Recovery is uneven across households.",
+          "resources": "Extension field visits; community animal health workers"
+        },
+        {
+          "title": "Document lessons for next Alert cycle",
+          "when": "By end of month",
+          "why": "Improves next anticipatory action round.",
+          "resources": "Simple after-action template"
+        }
+      ],
+      "sms": "ANZA RECOVERING Lodwar: SPI-3=-0.55 VCI=42% above Alert. Continue light monitoring, target residual feed needs, capture lessons. Valid to 31 Jul."
+    },
+    "drm": {
+      "explanation": "Post-Alert recovery in Lodwar peri-urban. SPI-3 and VCI no longer breach Alert, but county should keep a reduced ops tempo and confirm stocks are replenished before the next dry spell.",
+      "citations": [
+        { "indicator": "SPI-3", "value": "-0.55", "threshold": "-1.0 (Alert)", "sourceId": "icpac-thresholds" },
+        { "indicator": "VCI", "value": "42%", "threshold": "35% (Alert)", "sourceId": "icpac-drought-watch" }
+      ],
+      "actions": [
+        {
+          "title": "Scale down daily ops to weekly sitrep",
+          "when": "Immediate",
+          "why": "Indicators recovered above Alert — save staff time.",
+          "resources": "DRM ops calendar"
+        },
+        {
+          "title": "Replenish contingency stocks used in Alert",
+          "when": "Within 2 weeks",
+          "why": "Next Watch/Alert may arrive before full recovery region-wide.",
+          "resources": "Procurement / partner pipelines"
+        },
+        {
+          "title": "Publish all-clear with monitoring caveat",
+          "when": "Within 72 hours",
+          "why": "Communities need clarity without false security.",
+          "resources": "HUSIKA-style SMS; chief network"
+        }
+      ],
+      "sms": "ANZA DRM RECOVERING Lodwar: indicators above Alert. Weekly sitrep OK, replenish stocks, issue all-clear with monitoring caveat. Valid to 31 Jul."
+    }
+  }
+}
