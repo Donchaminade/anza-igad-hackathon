@@ -46,7 +46,7 @@
         {
           "title": "Pre-position water trucking request forms",
           "when": "This week",
-          "why": "Rainfall deficit often precedes borehole congestion in 2–3 weeks.",
+          "why": "Rainfall deficit often precedes borehole congestion in 2-3 weeks.",
           "resources": "NDMA / county water dept request templates"
         },
         {
@@ -61,7 +61,7 @@
   },
   "evt-turkana-2026-07-alarm": {
     "extension": {
-      "explanation": "Kakuma–Kalobeyei corridor is at Alarm: SPI-3=-1.62 (Alarm ≤ -1.5), VCI=22% (Alarm ≤ 25%), soil moisture anomaly=-38% (Alarm ≤ -35%), rainfall=31% of normal. Pasture regeneration before the next rains is unlikely. Livestock body condition will deteriorate quickly without feed/water support.",
+      "explanation": "Kakuma-Kalobeyei corridor is at Alarm: SPI-3=-1.62 (Alarm ≤ -1.5), VCI=22% (Alarm ≤ 25%), soil moisture anomaly=-38% (Alarm ≤ -35%), rainfall=31% of normal. Pasture regeneration before the next rains is unlikely. Livestock body condition will deteriorate quickly without feed/water support.",
       "citations": [
         { "indicator": "SPI-3", "value": "-1.62", "threshold": "-1.5 (Alarm)", "sourceId": "icpac-thresholds" },
         { "indicator": "VCI", "value": "22%", "threshold": "25% (Alarm)", "sourceId": "icpac-drought-watch" },
@@ -71,7 +71,7 @@
       "actions": [
         {
           "title": "Prioritize emergency livestock feed targeting",
-          "when": "Immediate (0–72h)",
+          "when": "Immediate (0-72h)",
           "why": "VCI and soil moisture at Alarm — natural pasture insufficient.",
           "resources": "County feed stores; FAO/partner feed pipelines; beneficiary lists"
         },
@@ -91,7 +91,7 @@
       "sms": "ANZA ALARM Kakuma-Kalobeyei: SPI-3=-1.62 VCI=22% soil=-38%. Act NOW: emergency feed targeting, move herds to dry-season reserves, scale animal health. Valid to 12 Aug."
     },
     "drm": {
-      "explanation": "Four indicators converge at Alarm for Kakuma–Kalobeyei. Confidence 86%. This justifies escalating from Alert AA to Alarm-tier anticipatory action: water trucking surge, hotspot monitoring near settlements/refugee-host interface, and coordination with NDMA/partners.",
+      "explanation": "Four indicators converge at Alarm for Kakuma-Kalobeyei. Confidence 86%. This justifies escalating from Alert AA to Alarm-tier anticipatory action: water trucking surge, hotspot monitoring near settlements/refugee-host interface, and coordination with NDMA/partners.",
       "citations": [
         { "indicator": "SPI-3", "value": "-1.62", "threshold": "-1.5 (Alarm)", "sourceId": "icpac-thresholds" },
         { "indicator": "VCI", "value": "22%", "threshold": "25% (Alarm)", "sourceId": "icpac-drought-watch" },
@@ -101,8 +101,8 @@
       "actions": [
         {
           "title": "Trigger Alarm-tier water trucking surge",
-          "when": "0–48 hours",
-          "why": "Rainfall 31% of normal + soil moisture Alarm → borehole queues likely.",
+          "when": "0-48 hours",
+          "why": "Rainfall 31% of normal + soil moisture Alarm -> borehole queues likely.",
           "resources": "County water trucks; partner tanker roster; fuel contingency"
         },
         {
@@ -168,7 +168,7 @@
         {
           "title": "Test SMS tree to ward admins",
           "when": "This week",
-          "why": "Watch → Alert transition must be communicable in hours.",
+          "why": "Watch -> Alert transition must be communicable in hours.",
           "resources": "HUSIKA-style channel; DRM WhatsApp"
         },
         {
